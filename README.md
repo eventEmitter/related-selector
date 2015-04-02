@@ -1,11 +1,14 @@
 # related-selector
 
-Basic class used for implementing related-orm selector extensions
+Class used for implementing [Related ORM](https://www.npmjs.com/package/ee-orm) selector extensions
 
 [![npm](https://img.shields.io/npm/dm/related-selector.svg?style=flat-square)](https://www.npmjs.com/package/related-selector)
 [![Travis](https://img.shields.io/travis/eventEmitter/related-selector.svg?style=flat-square)](https://travis-ci.org/eventEmitter/related-selector)
-[![npm](https://img.shields.io/npm/l/ee-orm.svg?style=flat-square)](https://www.npmjs.com/)
-[![node](https://img.shields.io/node/v/ee-orm.svg?style=flat-square)](https://nodejs.org/)
+[![node](https://img.shields.io/node/v/related-selector.svg?style=flat-square)](https://nodejs.org/)
 
 
-## usage
+## API
+
+A selector extensions for the [Related ORM](https://www.npmjs.com/package/ee-orm) must implement the class provided by this module. It must call its super `init` method and can and override the `render` method. The selector may also expose a regular [Related ORM Extension](https://www.npmjs.com/package/ee-orm-extension) so it can modify all parts of a query at any time.
+
+
