@@ -1,7 +1,7 @@
 {
       "name"                        : "related-selector"
     , "description"                 : "Basic class used for implementing related-orm selector extensions"
-    , "version"                     : "0.2.1"
+    , "version"                     : "0.2.2"
     , "homepage"                    : "https://github.com/eventEmitter/related-selector"
     , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)"
     , "licence"                     : "MIT"
