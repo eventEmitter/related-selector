@@ -1,7 +1,7 @@
 {
       "name"                        : "related-selector"
     , "description"                 : "Basic class used for implementing related-orm selector extensions"
-    , "version"                     : "0.2.2"
+    , "version"                     : "1.0.0"
     , "homepage"                    : "https://github.com/eventEmitter/related-selector"
     , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)"
     , "licence"                     : "MIT"
@@ -10,19 +10,19 @@
         , "type"                    : "git"
     }
     , "engines": {
-        "node"                      : ">=v0.10.17"
+        "node"                      : ">=4"
     }
     , "bugs": {
         "url"                       : "https://github.com/eventEmitter/related-selector/issues"
     }
     , "dependencies": {
-          "ee-class"                : "1.0.x"
-        , "ee-event-emitter"        : "0.1.x"
-        , "ee-types"                : "0.1.x"
+          "ee-class"                : "1.x"
+        , "ee-types"                : "1.x"
+        , "ee-event-emitter"        : "0.3.x"
         , "ee-log"                  : "0.3.x"
     }
     , "devDependencies": {
-          "mocha"                   : "1.17.x"
+          "mocha"                   : "2.x"
     }
     , "optionalDependencies": {}
     , "keywords"                    : ["related-orm", "selector", "extension"]
