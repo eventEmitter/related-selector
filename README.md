@@ -1,5 +1,7 @@
 # related-selector
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/related-selector.svg)](https://greenkeeper.io/)
+
 Class used for implementing [Related ORM](https://www.npmjs.com/package/ee-orm) selector extensions
 
 [![npm](https://img.shields.io/npm/dm/related-selector.svg?style=flat-square)](https://www.npmjs.com/package/related-selector)
